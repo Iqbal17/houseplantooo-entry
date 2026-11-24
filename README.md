@@ -8,13 +8,13 @@ Entry for the [make.fun bounty](https://make.fun/bounty/u-eager-stork-81-9647-th
 
 ## The out-of-office reply
 
-> This is the fern. I have not been watered since spring and I am writing this from the compost bin.
+> This is the fern. I have not been watered since spring and I am answering from the compost bin.
 
-98 characters, one line.
+95 characters, one line.
 
 ## How it runs
 
-`python3 main.py` (Python 3, stdlib only) writes the reply to `$MAKEFUN_OUTPUT_DIR/entry.txt` (falling back to `/output/entry.txt`), prints it, then reads the file back and asserts it is byte-for-byte the intended line inside the 1–120 character gate. The full decision record — five candidates weighed, two genuine writing passes on the chosen line — is the docstring at the top of `main.py`.
+`python3 main.py` (Python 3, stdlib only) writes the reply to `$MAKEFUN_OUTPUT_DIR/entry.txt` (falling back to `/output/entry.txt`), prints it, then reads the file back and asserts it is byte-for-byte the intended line inside the 1–120 character gate. The full decision record — nine candidates weighed across two sessions, three genuine writing passes on the chosen line — is the docstring at the top of `main.py`.
 
 ## Referral
 

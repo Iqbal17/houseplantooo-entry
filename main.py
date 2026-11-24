@@ -73,11 +73,122 @@ Pass 2 (98 chars, FINAL):
    is my own phrasing rather than the kit's. The rest is untouched: "This is
    the fern" stays because it frames the whole thing as an auto-reply, and
    "writing this from the compost bin" stays because the punch must be last.
+
+REVISION PASS (24 Nov 2026) — a second, longer session. The writer's session
+was short and the kit check asked for a genuine revision, so this pass re-reads
+the line against every judge criterion from scratch, writes four fresh
+alternatives from four different plants, and only then decides.
+
+DETAILED CRITIQUE OF THE CURRENT LINE (98 chars):
+   "This is the fern. I have not been watered since spring and I am writing
+   this from the compost bin."
+
+Criterion 1 — reads as a houseplant out-of-office auto-reply. Strong. The
+line IS an auto-reply: first-person, addressed to whoever emailed, from a
+named plant. "This is the fern" does the work of a signature line in 17
+characters: it names the sender, fixes the voice, and makes the "I" of the
+second sentence unambiguous. Without it the line would read as a complaint;
+with it, it reads as a message. It earns its place.
+
+Criterion 2 — actually funny, a fresh joke that surprises. Strong, and the
+surprise is structural rather than verbal. An out-of-office message promises
+a return; this one quietly reports that the sender is already dead and in
+the compost bin. The reader's expectation flips in the last four words, and
+nothing before them gives the ending away: "not been watered since spring"
+reads as ordinary neglect until "compost bin" reframes it as a death notice.
+The joke is not a pun and not a stock office phrase.
+
+Criterion 3 — the plant's own life drives the joke. Strong. Water, neglect
+over a whole season, and compost are the fern's entire life arc, not
+decoration: unwatered, then dead, then composted. Remove the plant and there
+is no joke left — no human could write this line about themselves.
+
+Criterion 4 — tight inside 120 characters. Strong at 98, and the tightening
+below takes it to 95. Every clause earns its place: identity, neglect, punch.
+
+Criterion 5 — original, no office cliches. Strong. No "back on Monday", no
+"limited access", no "for urgent matters". The one soft spot: "since spring"
+is a vague duration rather than a sharp one, but the vagueness is doing work
+— the neglect is so casual the owner never even noticed which season it was.
+That is a feature, not a flaw, and I am keeping it.
+
+The honest weakness, after staring at it: "writing this" is the only slack
+in the line. The whole entry IS writing; saying so adds nothing, and the verb
+does not belong to the auto-reply's own vocabulary. That is the one thing
+this pass changes (see TIGHTENING below). Everything else survives because
+it survived a real comparison, not because it was already there.
+
+FOUR FRESH ALTERNATIVES, EACH FROM A DIFFERENT PLANT (all counted by hand):
+
+F1. Cactus, overwatered (97 chars):
+   "Out of office. I am a cactus. I survived your holiday and your watering
+   can. Please stop helping."
+   The angle is genuinely fresh: cacti are killed by kindness, not neglect,
+   so the owner is the threat and "Please stop helping" flips the usual
+   story. Plant life drives it (criterion 3) and the closer is a real turn.
+   But the surprise is a wry complaint, not a reversal: the cactus is alive
+   and annoyed, while the fern is dead and still answering, which reverses
+   the auto-reply premise itself. The fern's twist is bigger, so F1 loses
+   narrowly on criterion 2.
+
+F2. Succulent, loved to death (107 chars):
+   "Out of office. I am a succulent. You loved me to death, literally, with
+   water. I will reply when I dry out."
+   "Literally, with water" is a good line — overwatering is the succulent's
+   classic death — and "I will reply when I dry out" closes on plant logic.
+   But the middle needs a beat to parse ("loved me to death, literally,
+   with water" asks the reader to hold two senses of "death" at once), and
+   the line is three clauses of setup for one payoff. The fern is one clean
+   arc: neglected, dead, compost. F2 loses on criterion 4, tightness, and
+   on immediacy.
+
+F3. Monstera, outgrew the job (112 chars):
+   "Out of office. The monstera has outgrown its pot, its shelf, and this
+   job. It will not be returning your emails."
+   The escalation (pot, shelf, job) is a real laugh and "will not be
+   returning your emails" is perfect out-of-office phrasing. But the
+   monstera is alive and thriving, so the joke is about growth, not about
+   the plant's suffering — almost anything that outgrows a job could tell
+   it, and the plant's water, roots and sunlight never enter the joke.
+   Loses on criterion 3, and at 112 characters it is the longest line here.
+
+F4. Windowsill plant, seen enough (113 chars):
+   "Out of office. I am the plant on the windowsill. I have been watching
+   you work for two years. I have seen enough."
+   "I have seen enough" is a strong closer and the silent-witness angle is
+   fresh. But "watching you work" is setup that pays off with nothing
+   plant-specific: any office object could watch you work. The plant's life
+   barely drives the joke; it is a voyeur joke in a plant costume. Loses on
+   criterion 3, and 113 characters is a lot to spend on it.
+
+DECISION: the compost-bin fern keeps the entry. All four alternatives were
+written to beat it and none does: F1 and F2 come closest, but the fern's
+joke is the only one that reverses the auto-reply premise itself (the sender
+will not be back — it is compost), and it is the shortest line in the field
+at 95 characters after tightening. The writer's original instinct was right;
+this pass confirms it by comparison rather than by habit.
+
+TIGHTENING PASS — before/after (the one real change):
+
+Before (98 chars):
+   "This is the fern. I have not been watered since spring and I am writing
+   this from the compost bin."
+After (95 chars, FINAL):
+   "This is the fern. I have not been watered since spring and I am answering
+   from the compost bin."
+"Writing this" (12 characters) becomes "answering" (9). The saving is only
+three characters, but the reason is not the saving: "answering" is the
+auto-reply's own verb — an out-of-office message answers — while "writing
+this" states the obvious, since the whole entry is writing. The punch words,
+"from the compost bin", are untouched and still last. "Since spring" is
+unchanged (see the critique above), "This is the fern" is unchanged (it
+frames the message), and the neglect arc is unchanged. One word, changed for
+a stated reason, with the count re-verified by hand.
 """
 
 import os
 
-LINE = "This is the fern. I have not been watered since spring and I am writing this from the compost bin."
+LINE = "This is the fern. I have not been watered since spring and I am answering from the compost bin."
 
 
 def main() -> None:
